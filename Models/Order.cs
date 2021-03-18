@@ -14,6 +14,9 @@ namespace MyShop.Models
         public int customer_id { get; set; }
         public DateTime order_date { get; set; }
 
+        public Order()
+        {
+        }
         public Order(int _order_id, int _product_id, int _customer_id, DateTime _order_date)
         {
             order_id = _order_id;
