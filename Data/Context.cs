@@ -10,5 +10,6 @@ namespace MyShop.Data
         public DbSet<Customer> Customer { get; set; }
         public DbSet<Order> Order { get; set; }
         public DbSet<Product> Product { get; set; }
+        public DbSet<User> User {get; set;}
     }
 }
